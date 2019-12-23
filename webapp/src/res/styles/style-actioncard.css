@@ -1,0 +1,70 @@
+.card-layout {
+    width: 400px;
+    max-width: 400px;
+    min-width: 350px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    margin-left: 20px;
+    margin-right:20px;
+    margin-top: 15px;
+    text-align: left;
+    border-radius: 10px;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+  }
+  
+  .form-layout input{
+    border-radius: 10px;
+    border: 1px solid #f3f3f3;
+    padding: 15px;
+    background: #f3f3f3;
+    transition: all 1s;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    width: 90%;
+  }
+  
+  .form-layout input:hover{
+    background:#c7c7c7;
+    color: black;
+    border: 1px solid #c7c7c7;
+  }
+  
+  .form-layout input:hover::placeholder{
+    color: white;
+  }
+  
+  .form-layout input:focus{
+    outline: 0;
+    background:#c7c7c7;
+    border: 1px solid #c7c7c7;
+  }
+  
+  .form-layout input:focus::placeholder{
+    color: black;
+  }
+  
+  .form-layout .description{
+    font-size: 12px;
+    color: #9f9f9f;
+    padding-left: 10px;
+  }
+  
+  .card-layout input[type=submit]{
+    padding: 10px 16px 10px;
+    background-color: #92e2b6;
+    border-radius: 10px;
+    width: 26%;
+    margin-top: 10px;
+    border: 1px solid #92e2b6;
+    cursor: pointer;
+  }
+  
+  .card-layout input[type=submit]:focus{
+    outline: 0;
+    background:#92e2b6;
+    border: 1px solid #92e2b6;
+  }
+  

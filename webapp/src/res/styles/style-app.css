@@ -1,0 +1,36 @@
+html, body{
+  padding:0;
+  margin:0;
+  background: #f3f3f3;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main{
+  width:100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+
+@media (min-width: 250px){
+  .loginLayout{
+    margin-top: 50%;
+    margin-right: 3%;
+    margin-left: 3%;
+    text-align: center;
+    transition: all 1s;
+  }
+}
+
+@media (min-width: 1050px){
+  .loginLayout{
+    margin-top: 20%;
+    margin-right: 3%;
+    text-align: center;
+    transition: all 1s;
+  }
+}
