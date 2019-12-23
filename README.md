@@ -1,4 +1,4 @@
-# Emperio
+# Emporio Analytics Assignment
 
 
 A sample Emperio application that authenticates a user into the application
