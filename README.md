@@ -1,7 +1,7 @@
 # Emporio Analytics Assignment
 
 
-A sample Emperio application that authenticates a user into the application
+A sample "Emperio" login application that authenticates a user into the system.
 
 ### Steps for Front-end
 
